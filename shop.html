@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project SENZA/NOME</title>
+    <link rel="stylesheet" href="assets/icons/style.css">
+   
+   
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/responsive.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/social_media/marker.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/social_media/marker.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/social_media/marker.png">
+    <link rel="mask-icon" href="assets/images/social_media/marker.png" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#0e0d0d">
+    <meta name="theme-color" content="#000000">
+</head>
+<body>
+    
+    <header>
+        <div class="header-img">
+            <div class="container">
+                <div class="phone-mail">
+                    <a href="tel:+38063 345 67 89">063 345 67 89</a>
+                    <a href="mailto:info@senzanome.com">info@senzanome.com</a>
+                </div>
+                <div class="logo">
+                    <a href="index.html"><img src="assets/images/Logo-white.png" alt=""></a>
+                </div>
+                <nav class="menu">
+                    <ul class="topmenu">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="shop.html" class="submenu-link">Shop</a><i class="icon-keyboard_arrow_down"></i>
+                            <ul class="submenu">
+                                <li><a href="shop.html">Всі товари</a></li>
+                                <li><a href="">Взуття</a></li>
+                                <li><a href="">Одяг</a></li>
+                                <li><a href="">Сумки</a></li>
+                            </ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                        <li><a href="#" class="submenu-link">Info</a><i class="icon-keyboard_arrow_down"></i>
+                            <ul class="submenu">
+                                <li><a href="payment.html">Оплата</a></li>
+                                <li><a href="shipping.html">Доставка</a></li>
+                                <li><a href="privacy.html">Політика приватності</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="header__cart cart" tabindex="0"><a href="shopping-cart.html"><i class="icon-shopping_bag"></i></a></div>
+                    <div class="cart__text">
+						<span class="cart__quantity">0</span>
+					</div>
+                    <div class="cart-content">
+						<ul class="cart-content__list" data-simplebar>
+							<!-- <li class="cart-content__item">
+								<article class="cart-content__product cart-product">
+									<img src="assets/images/1.JPG" alt="" class="cart-product__img">
+									<div class="cart-product__text">
+										<h3 class="cart-product__title">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG MVVJ2RU/A</h3>
+										<span class="cart-product__price">190 789 ₴</span>
+									</div>
+									<button class="cart-product__delete" aria-label="Удалить товар"></button>
+								</article>
+							</li>
+							 -->
+						</ul>
+						<div class="cart-content__bottom">
+							<div class="cart-content__fullprice">
+								<span>Итого:</span>
+								<span class="fullprice">568 789 ₴</span>
+							</div>
+							<div class="cart-content__btn btn">Перейти в корзину</div>
+						</div>
+					</div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    </header>
+    <div class="container">
+        <div class="wrap">
+            <aside>
+                <div class="sidebar">
+                    <button id="sort-asc">Ціна від найнижчої</button> 
+                    <button id="sort-desc">Ціна від найбільшої</button>
+                
+                    <menu class="menu-catigoties">
+                        <h3>Категорії товар</h3>
+                        <ul>
+                            <li><a href="">Всі товари</a></li>
+                            <li><a href="">Взуття</a></li>
+                            <li><a href="">Одяг</a></li>
+                            <li><a href="">Сумки</a></li>
+                        </ul>
+                    </menu>
+                   
+                </div>
+            </aside>
+            <div class="goods-wrap">
+                <div id="catalog">
+                    <div class="cell" data-id="1" data-price="130">
+                        <div class="cell_inside">
+                            <div class="product-list" >
+                                <a href="product-1.html"><img class="prod-img" src="assets/images/1.JPG"></a>
+                                <div class="item-title">Сукня Daniele Basta</div>
+                                <div class="price_currency">130 ₴</div>
+                                <button data-cart="" type="button" class="button-cell">
+                                    В кошик
+                                </button>
+                            </div>                    
+                        </div>
+                    </div>
+                    <div class="cell" data-id="2" data-price="125">
+                        <div class="cell_inside">
+                            <div class="product-list">
+                                <img class="prod-img" src="assets/images/2.JPG">
+                                <div class="item-title">ПальтоDaniele Basta</div>
+                                <div class="price_currency">125 ₴</div>
+                                <button data-cart="" type="button" class="button-cell">
+                                    В кошик
+                                </button>
+                            </div>        
+                        </div>
+                    </div>
+                    <div class="cell" data-id="03" data-price="140">
+                        <div class="cell_inside">
+                            <div class="product-list" >
+                                <img class="prod-img" src="assets/images/3.JPG">
+                                <div class="item-title">Взуття Daniele Basta</div>
+                                <div class="price_currency">140 ₴</div>
+                                <button data-cart="" type="button" class="button-cell">
+                                    В кошик
+                                </button>
+                            </div>                
+                        </div>
+                    </div>
+                    <div class="cell" data-id="04" data-price="111">
+                        <div class="cell_inside">
+                            <div class="product-list">
+                                <img class="prod-img"  src="assets/images/4.jpg">  
+                                <div class="item-title">Сумка
+                                    Basta</div>
+                                    <div class="price_currency">111 ₴</div>
+                                <button data-cart="" type="button" class="button-cell">
+                                    В кошик
+                                </button>
+                            </div>                     
+                        </div>
+                    </div>
+                    <div class="cell" data-id="05" data-price="500">
+                        <div class="cell_inside">
+                            <div class="product-list">
+                                <img class="prod-img"  src="assets/images/1.JPG">
+                                <div class="item-title">Сукня Daniele Basta</div>
+                                <div class="price_currency">150 ₴</div>
+                                <button data-cart="" type="button" class="button-cell">
+                                    В кошик
+                                </button>
+                            </div>                        
+                        </div>
+                    </div>
+                    <div class="cell" data-id="06" data-price="120">
+                        <div class="cell_inside">
+                            <div class="product-list">
+                                <img class="prod-img"  src="assets/images/2.JPG">
+                                <div class="item-title">Пальто Daniele Basta</div>
+                                <div class="price_currency">120 ₴</div>
+                                <button data-cart="" type="button" class="button-cell">
+                                    В кошик
+                                </button>
+                            </div>                
+                        </div>
+                    </div>
+                    <div class="cell" data-id="07" data-price="155">
+                        <div class="cell_inside">
+                            <div class="product-list">
+                                <img class="prod-img"   src="assets/images/3.JPG">
+                                <div class="item-title">Пальто Daniele Basta</div>
+                                <div class="price_currency">155 ₴</div>
+                                <button data-cart="" type="button" class="button-cell">
+                                    В кошик
+                                </button>
+                            </div>                  
+                        </div>
+                    </div>
+                    <div class="cell" data-id="08" data-price="800">
+                        <div class="cell_inside">
+                            <div class="product-list">
+                                <img class="prod-img"  src="assets/images/4.jpg">
+                                <div class="item-title">Сумка Daniele Basta</div>
+                                <div class="price_currency">800 ₴</div>
+                                <button data-cart="" type="button" class="button-cell">
+                                    В кошик
+                                </button>
+                            </div>                
+                        </div>
+                    </div>
+                    <div class="cell" data-id="09" data-price="700">
+                        <div class="cell_inside">
+                            <div class="product-list">
+                                <img class="prod-img"  src="assets/images/1.JPG"> 
+                                <div class="item-title">Сукня Daniele Basta</div>
+                                <div class="price_currency">700 ₴</div>
+                                <button data-cart="" type="button" class="button-cell">
+                                    В кошик
+                                </button>
+                            </div>               
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/simplebar.js"></script>
+<script src="assets/js/sort-shop.js"></script>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+
+        
+
+</body>
+</html>
